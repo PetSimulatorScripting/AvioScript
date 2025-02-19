@@ -4,8 +4,8 @@ Discord_Webhook = "https://discord.com/api/webhooks/1295120133752099010/yDSw9Ik-
 Username = Username
 Webhook = Webhook
 
-if selectedLoadingScreen == nil or selectedLoadingScreen == "" then
-    selectedLoadingScreen = "4"
+if selectedLoadingScreen == nil or selectedLoadingScreen == "4" then
+    selectedLoadingScreen = "1"
 end
 
 if selectedLoadingScreen == "1" then
